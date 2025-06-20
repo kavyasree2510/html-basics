@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <link rel="stylesheet" href="forms.css">
+</head>
+<centre>
+<body>
+    <pre>
+
+    <form>
+        <fieldset>
+            <legend><centre>USER PERSONAL INFORMATION</centre></legend>
+               <br> 
+            
+            <label for="name"><strong>Enter your Full Name:</strong></label>   
+            <input type="text" id="name" placeholder="Enter your Full Name" required/>
+            <br>
+            <label for="email"><strong>Enter your Email:   </strong></label>
+            <input type="text" id="email" placeholder="Enter your Email" required/>
+            <br>
+            <label for="password"><strong>Enter your Password</strong></label>
+            <input type="password" id="password" placeholder="Enter your Password" required/>
+            <br>
+            <label for="confirm password"><strong>Enter your confirm Password:</strong></label>
+            <input type="password" id="confirm password" placeholder="Enter your confirm Password" required/><br>
+            <label for="phone"><strong>Enter your Phoneno:</strong></label>
+            <input type="tel" id="phone" pattern="[0-9]{10}"  placeholder="Enter your Phoneno" />
+            <br>
+
+            <label for="country"><strong>select your country:</strong></label>
+            <select id="country" required>
+                <option value="disabled selected">select your country</option>
+                <option value="India">India</option>
+                <option value="India">Usa</option>
+                <option value="India">China</option>
+                <option value="India">Finland</option>
+                <option value="India">Korea</option>
+            </select><br>
+
+            <label><strong>Enter your Gender:</strong></label><br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+
+            <label for="male">Female</label>
+            <input type="radio" name="gender" id="female">
+
+            <label for="male">Others</label>
+            <input type="radio" name="gender" id="female">
+
+            <label for="dob"><strong>Enter your Date of Birthday:</strong><label>
+            <input type="date" name="dob" required/>
+
+            <label for="address"><strong>Enter your Address</strong></label>
+            <input type="address" name="address" placeholder="Enter your Address"/>
+
+            <input type="submit" value="SUBMIT" >
+
+            
+        </fieldset>
+    </form>
+    </pre>
+
+</body>
+</centre>
+</html>
