@@ -1,0 +1,46 @@
+body{
+    align-items: center;
+    font-family:'Inter',sans-serif;
+    background-color: rgb(195, 195, 180);
+    margin:0;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 20px;
+    box-sizing:border-box;
+}
+legend{
+    color: rgb(16, 17, 17);
+}
+fieldset{
+    background-image:url("b8314e84002452f071c2b70adb404a04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 900px;
+    max-width: 500px;
+
+}
+label{
+    background-color: rgb(174, 174, 190);
+    background-size: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    font-size: 0.95em;
+    display: contents;
+}
+
+form{
+    background-color: rgb(225, 168, 168);
+    background-size: 500px;
+    max-width: 500px;
+    max-height: 5000px;
+}
+h1{
+    text-align: center;
+    color:azure;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 2em;
+    letter-spacing: -0.5px;
+}
